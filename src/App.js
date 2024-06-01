@@ -2,7 +2,7 @@ import Header from './component/Header';
 import './App.css';
 
 function App() {
-  let name="Vaibhavi Kishor Bodke"
+  let name="Vaibhavi Bodke"
   let obj={
     name:"vaibhavi",
     address:{

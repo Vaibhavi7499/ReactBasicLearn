@@ -1,6 +1,9 @@
+import "./style/Header.css"
 function Header() {
 return(
-    <h1>Header Component</h1>
+    <div>
+        <h1 className="name">Kishor Fawade</h1>
+    </div>
 )
 }
 export default Header
