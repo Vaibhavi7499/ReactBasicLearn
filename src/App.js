@@ -1,23 +1,14 @@
-import Header from './component/Header';
-import './App.css';
-
+import "./App.css"
+import { JsxC } from "./JsxC";
+import { Cal } from "./Cal";
+import { Calculator } from "./Calculator/Calculator";
 function App() {
-  let name="Vaibhavi Bodke"
-  let obj={
-    name:"vaibhavi",
-    address:{
-      location:{
-        city:"Latur"
-      }
-    }
-  }
-  let {address:{location:{city}}}=obj
-  return (
-    <div className="App">
-      <h1>Hello {name} and I am from {city}</h1>
-      <Header></Header>
-    </div>
-  );
-}
+    return (
+        <div>
+           {/* <Cal/> */}
+           <Calculator/>
+        </div>
+    )
+} 
 
 export default App;
