@@ -1,0 +1,27 @@
+.player1{
+    margin-left: 180px;
+    margin-top: 60px;
+    background-color: green;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.player2{
+    margin-left: 180px;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+}
+.subcontainer{
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: 10px;
+    border: 5px solid salmon;
+}
